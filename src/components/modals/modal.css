@@ -32,14 +32,11 @@
   }
   /* Close button */
   .close {
-    color: #fff;
-    background-color: #999;
+    color: black;
     position: absolute;
-    top: 8px;
+    top: 0px;
     right: 8px;
-    font-size: 20px;
-    border-radius:50%;
-    border: 2px solid #333;
+    font-size: 40px;
   }
   .close:hover,
   .close:focus {

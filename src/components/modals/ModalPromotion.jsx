@@ -50,9 +50,6 @@ const Modal = ({ childData }) => {
                                     <button slot="ar-button" id="ar-button">
                                         View in your space
                                     </button>
-                                    <div id="ar-prompt">
-                                        <img src="https://modelviewer.dev/shared-assets/icons/hand.png" />
-                                    </div>
                                 </model-viewer>
 
                             </div>
@@ -64,9 +61,6 @@ const Modal = ({ childData }) => {
                                     <button slot="ar-button" id="ar-button">
                                         View in your space
                                     </button>
-                                    <div id="ar-prompt">
-                                        <img src="https://modelviewer.dev/shared-assets/icons/hand.png" />
-                                    </div>
                                 </model-viewer>
                             </div>
                         </div>
