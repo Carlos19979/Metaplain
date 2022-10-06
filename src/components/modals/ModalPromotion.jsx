@@ -49,7 +49,7 @@ const Modal = ({ childData }) => {
                                     </div>
                                     <button slot="ar-button" id="ar-button">
                                         View in your space
-                                    </button>
+                                    </button>    
                                 </model-viewer>
 
                             </div>

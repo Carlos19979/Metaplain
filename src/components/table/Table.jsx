@@ -44,9 +44,7 @@ export default function Table({ childData }) {
                                         142
                                     </td>
                                     <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                        <button className='bg-slate-200 text-cyan-600' onClick={() => childData(true)}>
-                                            mas informacion
-                                        </button>
+                                        <button className='underline decoration-1 text-blue-400' onClick={() => childData(true)}>Mas informacion</button>
                                     </td>
                                 </tr>
                                 <tr class="bg-gray-100 border-b">
@@ -64,7 +62,7 @@ export default function Table({ childData }) {
                                         142
                                     </td>
                                     <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                        <button className='underline decoration-1 text-blue-400'>Mas informacion</button>
+                                        <button className='underline decoration-1 text-blue-400' onClick={() => childData(true)}>Mas informacion</button>
                                     </td>
                                 </tr>
                                 <tr class="bg-gray-100 border-b">
@@ -82,7 +80,7 @@ export default function Table({ childData }) {
                                         142
                                     </td>
                                     <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                        <button className='underline decoration-1 text-blue-400'>Mas informacion</button>
+                                        <button className='underline decoration-1 text-blue-400' onClick={() => childData(true)}>Mas informacion</button>
                                     </td>
                                 </tr>
 
