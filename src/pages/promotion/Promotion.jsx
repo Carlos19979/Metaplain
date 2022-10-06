@@ -28,7 +28,7 @@ export default function Promotion() {
 
         <div className='mt-4 mx-3 py-3 px-3 rounded-lg overflow-hidden shadow-lg border border-separate bg-white content-center lg:grid grid-flow-row-4 grid-cols-2 p'>
             <div className='bg-white' >
-                <model-viewer style={modelViwerStyle} src="/scene.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
+                <model-viewer style={modelViwerStyle} src="/building.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
                     <div class="progress-bar hide" slot="progress-bar">
                         <div class="update-bar"></div>
                     </div>
