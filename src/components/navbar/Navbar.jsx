@@ -5,8 +5,7 @@ import {  useState } from 'react'
 
 export default function Navbar() {
   let links = [
-    {name:"DASHBOARD",link:"/dashboard"},
-    {name:"PERFIL",link:"/"},
+    {name:"PROMOCIONES",link:"/dashboard"}
   ];
 
   let [open,setOpen]=useState(false);
