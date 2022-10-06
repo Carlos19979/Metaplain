@@ -9,12 +9,12 @@ import { useState } from 'react';
 export default function Promotion() {
 
 
-    
 
- 
+
+
     const [data, setData] = useState()
 
-    function childData(data){
+    function childData(data) {
         setData(data)
     }
 
@@ -32,7 +32,14 @@ export default function Promotion() {
 
         <div className='mt-4 mx-3 py-3 px-3 rounded-lg overflow-hidden shadow-lg border border-separate bg-white content-center lg:grid grid-flow-row-4 grid-cols-2 p'>
             <div className='bg-white' >
-                <model-viewer className="rounded-lg overflow-hidden  " src="/building.glb" camera-controls shadow-intensity="1" style={modelViwerStyle}> </model-viewer>
+                <model-viewer style={modelViwerStyle} src="/scene.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1" style={modelViwerStyle}>
+                    <div class="progress-bar hide" slot="progress-bar">
+                        <div class="update-bar"></div>
+                    </div>
+                    <button slot="ar-button" id="ar-button">
+                        View in your space
+                    </button>
+                </model-viewer>
 
             </div>
             <div className='bg-white mb-6 sm:mb-0'>
@@ -43,7 +50,7 @@ export default function Promotion() {
 
             <div className='bg-white lg:mt-40'>
                 <div className=' hidden sm:inline'>
-                    <Table  childData={childData}></Table>
+                    <Table childData={childData}></Table>
                 </div>
                 <div className=' inline sm:hidden'>
                     <CardVewPromotion childData={childData}></CardVewPromotion>
@@ -54,7 +61,7 @@ export default function Promotion() {
                 <Map />
             </div>
             <div style={divStyle}>
-                <Modal  childData={childData}></Modal>
+                <Modal childData={childData}></Modal>
             </div>
         </div>
 
