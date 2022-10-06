@@ -16,7 +16,7 @@ export default function Login() {
           <div className='text-white font-poppins text-2xl tracking-widest'>Iniciar Sesion</div>
           <input type="text" placeholder='usuario' className='input-text' />
           <input type="password" placeholder='contraseña' className='input-text' />
-          <input type="Submit" className='cursor-pointer font-poppins rounded-full px-5 py-1 bg-white bg-opacity-50 hover:bg-white hover:bg-opacity-80' onClick={() => navigate('/dashboard', { replace: true })}/>
+          <input type="Submit" className='cursor-pointer font-poppins rounded-full px-5 py-1 bg-white bg-opacity-50 hover:bg-white hover:bg-opacity-80' onClick={() => navigate('dashboard', { replace: true })}/>
         </form>
       </div>
     </div>
