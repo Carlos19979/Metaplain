@@ -6,7 +6,7 @@ const Modal = ({ childData }) => {
     const modelViwerStyle = {
         width: '900px',
         height: '800px',
-        paddingTop: '70px'
+        paddingTop: '70px',
     }
 
     const modelViwerStyleMobile = {
