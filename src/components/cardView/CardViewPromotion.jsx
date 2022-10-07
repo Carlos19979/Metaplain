@@ -38,7 +38,7 @@ export default function CardViewPromotion({ childData }) {
             <div className='col-span-2'>
 
                 <button className='bg-slate-200 text-cyan-600' onClick={() => childData(true)}>
-                    mas informacion
+                    Visualizar en AR
                 </button>
             </div>
         </div>
