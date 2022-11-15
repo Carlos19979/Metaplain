@@ -17,7 +17,7 @@ export default function MenuPromotion() {
         </a>
       </div>
       <div className='relative py-7  h-36'>
-      <a href="https://mywebar.com/p/Project_0_6jo0m6yq39" target="_blank" rel="noreferrer">
+      <a href="https://ficsa.es/promociones/paseo-al-mar/" target="_blank" rel="noreferrer">
           <img className="w-full h-full  rounded-full filter brightness-50 relative" src={'/ejemplo.PNG'} />
           <p className='absolute text-2xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>Mas informacion</p>
        </a>
