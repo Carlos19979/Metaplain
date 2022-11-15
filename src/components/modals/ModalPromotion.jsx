@@ -43,7 +43,7 @@ const Modal = ({ childData }) => {
                         </div>
                         <div className="modal-body">
                             <div className=" hidden lg:inline">
-                                <model-viewer src="/scene.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1" style={modelViwerStyle}>                                
+                                <model-viewer src="/hometryhigh.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1" style={modelViwerStyle}>                                
                                         <div class="update-bar"></div>                             
                                     <button slot="ar-button" id="ar-button">
                                         View in your space
@@ -52,7 +52,7 @@ const Modal = ({ childData }) => {
 
                             </div>
                             <div className="inline lg:hidden">
-                                <model-viewer src="/scene.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1" style={modelViwerStyleMobile}>
+                                <model-viewer src="/hometryhigh.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1" style={modelViwerStyleMobile}>
                                         <div class="update-bar"></div>
                                     <button slot="ar-button" id="ar-button">
                                         View in your space
