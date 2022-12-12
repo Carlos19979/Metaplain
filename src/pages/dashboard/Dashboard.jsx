@@ -1,5 +1,5 @@
 import React from 'react'
-import CardViewList from '../../components/list/CardViewList'
+import DashboardList from '../../components/list/DashboardList'
 import '@google/model-viewer';
 
 
@@ -13,8 +13,8 @@ export default function Dashboard() {
   
   return (
     <div>
-      <CardViewList props={cardView}>
-      </CardViewList> 
+      <DashboardList props={cardView}>
+      </DashboardList> 
     </div>
 
   )

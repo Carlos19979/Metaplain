@@ -1,53 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { FaBed } from 'react-icons/fa'
-import { FaShower } from 'react-icons/fa'
-import { FaHouseUser } from 'react-icons/fa'
-import { FaMap } from 'react-icons/fa'
 
 
 
 export default function MenuPromotion() {
   return (
-    <div>
-      <div className='grid grid-cols-4 gap-2 sm:ml-20 ml-3 pt-8'>
-        <div className='flex'>
-          <FaBed className='text-3xl sm:text-4xl' />
-          <p className='ml-2 mt-2'>3</p>
-        </div>
-        <div className='flex'>
-          <FaShower className='text-3xl sm:text-4xl ml-2 ' />
-          <p className=' mt-2 ml-2 '>1</p>
-        </div>
-
-        <div className='flex'>
-          <FaHouseUser className='text-3xl sm:text-4xl' />
-          <p className='mt-1'>40  m2</p>
-        </div>
-
-        <div className='flex'>
-          <FaMap className='text-3xl sm:text-4xl' />
-          <p className=' m-1'>60  m2</p>
-        </div>
-
-        <div className='text-left'>
-          Dormitorios
-        </div>
-
-        <div className='text-left ml-2 '>
-          Baños
-        </div>
-
-        <div className='text-left'>
-          Edificados 
-        </div>
-
-        <div className='text-left'>
-         Parcela
-        </div>
-
-
-      </div>
       <div className='my-20 px-4'>
         <div className='relative py-7 h-36'>
           <Link to="/dashboard/promotion/viviendas/real">
@@ -68,6 +25,5 @@ export default function MenuPromotion() {
           </a>
         </div>
       </div>
-    </div>
   )
 }
