@@ -1,25 +1,21 @@
-import React from 'react'
-import DashboardList from '../../components/list/DashboardList'
-import '@google/model-viewer';
-
+import React from "react";
+import DashboardList from "../../components/list/DashboardList";
+import "@google/model-viewer";
+import dbLoader from "../../components/dbLoader/dbLoader";
+import { useEffect, useState } from "react";
 
 export default function Dashboard() {
+  const [data, setData] = useState([]);
 
+  useEffect(() => {
+    const dbdata = dbLoader();
 
-  let cardView = [
-    { name: "Paseo al Mar", desc: "Valencia" , iniciada:"Obra iniciada", img: "/ficsafinca.jpg" },
-  ];
+    setData(dbdata);
+  }, []);
 
-  
   return (
     <div>
-      <DashboardList props={cardView}>
-      </DashboardList> 
+      <DashboardList props={data}></DashboardList>
     </div>
-
-  )
-
+  );
 }
-
-
-

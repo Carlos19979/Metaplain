@@ -1,0 +1,118 @@
+{
+  "ficsa": {
+    "promotions": [
+      {
+        "id": "1",
+        "name": "Paseo al Mar",
+        "desc": "Valencia",
+        "begin": "Obra iniciada",
+        "imgurl": "/ficsafinca.jpg",
+        "facade3D": "/apartment_building_-_3d_model.glb",
+        "descriptionMain": "La nueva Promoción de Ficsa, el Edificio Paseo al Mar, está ubicada entre las calles José Ballester y Esteban Ballester, en el distrito Poblats Maritims a escasos 150 metros de la avenida Blasco Ibañez y a un paso de la estación de tren Valencia-Cabanyal y del Mercado del Cabanyal. Tu futuro hogar se encontrará en un Edificio de nueva construcción con 25 viviendas y 5 áticos, excelentes calidades y distribuciones de 1 a 4 dormitorios. También dispone de plazas de aparcamiento y trasteros. Un Edificio versátil y muy luminoso con espacios diseñados para ti y acabados que se adaptan a tus necesidades. Vive rodeado de todos los servicios necesarios en un entorno consolidado y muy próximo a la playa, vive a un Paseo del Mar. Previsión inicio de obras: 4º trimestre 2022.",
+        "web": "https://ficsa.es/",
+        "coordinates": {
+          "lat": 1234123,
+          "long": 12312451
+        },
+        "houses": [
+          {
+            "id": "1",
+            "tittle": "house A",
+            "real": "/apartment.glb",
+            "plan": "https://mywebar.com/p/Project_0_6jo0m6yq39",
+            "photoMenu": "/ejemplo.PNG",
+            "planData": "/ficsafinca.jpg"
+          },
+          {
+            "id": "2",
+            "tittle": "house B",
+            "real": "/apartment.glb",
+            "photoMenu": "/ejemplo.PNG",
+            "plan": "https://mywebar.com/p/Project_0_6jo0m6yq39",
+            "planData": "/ficsafinca.jpg"
+          },
+          {
+            "id": "3",
+            "tittle": "house C",
+            "real": "/apartment.glb",
+            "photoMenu": "/ejemplo.PNG",
+            "plan": "https://mywebar.com/p/Project_0_6jo0m6yq39",
+            "planData": "/ficsafinca.jpg"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Villa Moraira",
+        "desc": "Valencia",
+        "begin": "Obra iniciada",
+        "imgurl": "/ficsafinca.jpg",
+        "facade3D": "/apartment_building_-_3d_model.glb",
+        "descriptionMain": "Villa moraira",
+        "web": "https://ficsa.es/",
+        "coordinates": {
+          "lat": 1234123,
+          "long": 12312451
+        },
+        "houses": [
+          {
+            "id": "3",
+            "tittle": "house A",
+            "real": "/apartment.glb",
+            "plan": "https://mywebar.com/p/Project_0_6jo0m6yq39",
+            "photoMenu": "/ejemplo.PNG",
+            "planData": "/ficsafinca.jpg"
+          },
+          {
+            "id": "4",
+            "tittle": "house B",
+            "real": "/apartment.glb",
+            "photoMenu": "/ejemplo.PNG",
+            "plan": "https://mywebar.com/p/Project_0_6jo0m6yq39",
+            "planData": "/ficsafinca.jpg"
+          },
+          {
+            "id": "5",
+            "tittle": "house C",
+            "real": "/apartment.glb",
+            "photoMenu": "/ejemplo.PNG",
+            "plan": "https://mywebar.com/p/Project_0_6jo0m6yq39",
+            "planData": "/ficsafinca.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "metrovacesa": {
+    "promotions": [
+      {
+        "id": "1",
+        "name": "Paseo al Mar 2",
+        "desc": "Valencia",
+        "begin": "Obra iniciada",
+        "imgurl": "/ficsafinca.jpg",
+        "facade3D": "/apartment.glb",
+        "descriptionMain": "La nueva Promoción de Ficsa, el Edificio Paseo al Mar, está ubicada entre las calles José Ballester y Esteban Ballester, en el distrito Poblats Maritims a escasos 150 metros de la avenida Blasco Ibañez y a un paso de la estación de tren Valencia-Cabanyal y del Mercado del Cabanyal. Tu futuro hogar se encontrará en un Edificio de nueva construcción con 25 viviendas y 5 áticos, excelentes calidades y distribuciones de 1 a 4 dormitorios. También dispone de plazas de aparcamiento y trasteros. Un Edificio versátil y muy luminoso con espacios diseñados para ti y acabados que se adaptan a tus necesidades. Vive rodeado de todos los servicios necesarios en un entorno consolidado y muy próximo a la playa, vive a un Paseo del Mar. Previsión inicio de obras: 4º trimestre 2022.",
+        "web": "https://ficsa.es/",
+        "coordinates": {
+          "lat": 1234123,
+          "long": 12312451
+        },
+        "houses": [
+          {
+            "tittle": "house A",
+            "3DReal": "Paseo al Mar",
+            "3Dplan": "https://mywebar.com/p/Project_0_6jo0m6yq39",
+            "planData": "/ficsafinca.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Villa moraira 2",
+        "desc": "Alicante",
+        "begin": "Obra iniciada",
+        "imgurl": "/ficsafinca.jpg"
+      }
+    ]
+  }
+}
