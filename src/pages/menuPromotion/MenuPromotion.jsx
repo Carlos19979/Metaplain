@@ -26,7 +26,8 @@ export default function MenuPromotion() {
   }, []);
 
   return (
-    <div className="lg:flex px-8 gap-3">
+    
+    <div className="lg:flex px-8 gap-3 md:mt-72 mt-48">
       <div className="relative py-7 h-36">
         <Link to={"real"}>
           <img
@@ -64,7 +65,7 @@ export default function MenuPromotion() {
             src={data.photoMenu}
           />
           <p className="absolute text-2xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-            Mas informacion
+            Más información
           </p>
         </a>
       </div>

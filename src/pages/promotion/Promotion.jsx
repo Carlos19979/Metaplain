@@ -57,7 +57,7 @@ export default function Promotion() {
           <FaGoogle className="mt-2 mx-2 text-lg" />
           <p className="mt-1 text-blue-400">Nuestra web</p>
         </a>
-        <Link className="ml-5 bg-white border rounded-md flex " to="viviendas">
+        <Link className="ml-5 bg-white border rounded-md flex" to="viviendas">
           <FaHouseUser className="mx-2 mt-2 text-lg" />
           <p className="mt-1 text-blue-400"> Ver viviendas</p>
         </Link>
