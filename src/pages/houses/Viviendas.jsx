@@ -20,8 +20,6 @@ export default function Viviendas() {
     });
   }, []);
 
-  console.log(data)
-
   return (
     <div>
         <CardViewViviendaList props={data}/>

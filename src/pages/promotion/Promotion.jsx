@@ -19,7 +19,6 @@ export default function Promotion() {
   useEffect(() => {
     var url = window.location.href;
     var startUrl = url.toString().split("/")[6];
-    console.log(startUrl)
     const data = dbLoader();
 
     data.forEach((element) => {

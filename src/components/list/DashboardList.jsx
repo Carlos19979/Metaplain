@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function List({ props }) {
 
   return (
-    <div className="sm:flex px-8 gap-10 py-8 ">
+    <div className="sm:grid grid-cols-2 px-8 gap-10 py-8 ">
       {props.map((propsF, index) => (
         <Link to={"promotion/"+propsF.id}>
           <CardViewDashboard
